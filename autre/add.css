@@ -253,18 +253,17 @@ input {
        
     }
     .ghzeu {
-        height: 700px;
+        height: 1100px;
         width: 100%;
-        background: url(./ima/nnhsdq.jpg) 50% no-repeat;
+        background-color: white;
         padding-top: 100px;
-        background-size: cover;
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 50px;
     }
     .eqtgu {
-        
+        height:90%;
         width: 80%;
         background-color: white;
         margin-bottom: 20px;
@@ -273,8 +272,19 @@ input {
         padding: 20px 30px;
         
     }
-    .eqtgu h1{
+    .eqtgu input{
         
+        width: 93%;
+        background-color: white;
+        margin-bottom: 20px;
+        box-shadow: 5px 2px 20px 1px grey;
+        border-radius: 20px;
+        padding: 20px 30px;
+        
+    }
+    .eqtgu textarea{
+        border: none;
+        height: 300px;
         width: 93%;
         background-color: white;
         margin-bottom: 20px;
@@ -289,6 +299,48 @@ input {
 
 
 @media (max-width : 1000px) {
+    
+    .ghzeu {
+        height: 1100px;
+        width: 100%;
+        background-color: white;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .eqtgu {
+        height:90%;
+        width: 80%;
+        background-color: white;
+        margin-bottom: 20px;
+        box-shadow: 5px 2px 20px 1px grey;
+        border-radius: 20px;
+        padding: 20px 30px;
+        
+    }
+    .eqtgu input{
+        
+        width: 85%;
+        background-color: white;
+        margin-bottom: 20px;
+        box-shadow: 5px 2px 20px 1px grey;
+        border-radius: 20px;
+        padding: 20px 30px;
+        
+    }
+    .eqtgu textarea{
+        border: none;
+        height: 300px;
+        width: 85%;
+        background-color: white;
+        margin-bottom: 20px;
+        box-shadow: 5px 2px 20px 1px grey;
+        border-radius: 20px;
+        padding: 20px 30px;
+        
+    }
     #ord {
         display: none;
     }
@@ -351,7 +403,7 @@ input {
     }
 
     .fouteur {
-        height: 1000px;
+        height: 500px;
         width: 100%;
         background-color: black;
         overflow: hidden;

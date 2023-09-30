@@ -21,6 +21,10 @@ input {
 
 
 @media (min-width : 1000px) {
+    body {
+        width: 100%;
+        background-color: black;
+    }
     #tel {
         display: none;
     }
@@ -89,7 +93,7 @@ input {
     }
     .lila nav ul a:hover{
         padding: 10px 20px;
-        text-decoration: overline rgb(30, 148, 0);
+        text-decoration: overline rgb(23, 0, 128);
 
         margin-left: 5px;
         font-size: 0.8rem;
@@ -147,7 +151,7 @@ input {
     .los {
         height: 60%;
         width: 80%;
-        background-color: rgb(30, 148, 0);
+        background-color: rgb(23, 0, 128);
         border-radius: 10px;
         display: flex;
         align-items: center;
@@ -159,7 +163,7 @@ input {
     /* footer */
 
     #fooetr {
-        height: 700px;
+        height: 200px;
         width: 100%;
         background-color: black;
         display: flex;
@@ -196,55 +200,10 @@ input {
     }
     
     
-    .ronfsd1 {
-        height: 40px;
-        width:40px;
-        background-color: white;
-        border-radius: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .ronfsd2 {
-        height: 40px;
-        width:40px;
-        background-color: white;
-        border-radius: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .ronfsd3 {
-        height: 40px;
-        width:40px;
-        background-color: white;
-        border-radius: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
     
-    .ronfsd4 {
-        height: 40px;
-        width:40px;
-        background-color: white;
-        border-radius: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .ronfsd5 {
-        height: 40px;
-        width:40px;
-        background-color: white;
-        border-radius: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
 
     .premi2 {
-        height: 103%;
+        height: 100%;
         width:50%;
         background-color: black;
         
@@ -287,14 +246,42 @@ input {
     }
     .sjudzs2 button{
         border: none;
-        background-color: green;
+        background-color: rgb(23, 0, 128);
         color: white;
         padding: 10px;
         margin-left: 20px;
        
     }
-    
-    
+    .ghzeu {
+       
+        width: 100%;
+        background-color: white;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .eqtgu {
+        
+        width: 80%;
+        background-color: white;
+        margin-bottom: 20px;
+        box-shadow: 5px 2px 20px 1px grey;
+        border-radius: 20px;
+        padding: 20px 30px;
+        
+    }
+    .eqtgu h1{
+        
+        width: 93%;
+        background-color: white;
+        margin-bottom: 20px;
+        box-shadow: 5px 2px 20px 1px grey;
+        border-radius: 20px;
+        padding: 20px 30px;
+        
+    }
     
 }
 
@@ -308,7 +295,7 @@ input {
     .vakcd1 {
         height: 70px;
         width: 100%;
-        background-color: green;
+        background-color: rgb(23, 0, 128);
         position: fixed;
         top: 0;
         z-index: 3;
