@@ -255,7 +255,8 @@ input {
     .ghzeu {
        
         width: 100%;
-        background-color: white;
+        background: url(../ima/hjfd.jpg) 50% no-repeat;
+        background-size: cover;
         padding-top: 100px;
         display: flex;
         flex-direction: column;
